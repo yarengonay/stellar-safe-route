@@ -59,3 +59,22 @@ npm run dev
 *   **Güvenli O2O QR Doğrulaması:** Teslimat anında alıcı bir QR kod gösterir. Kurye bu QR kodu mobil kamerasıyla taradığında (veya manuel kodu girdiğinde) SHA-256 hash doğrulaması blockchain üzerinde çalışır ve ödemeyi otomatik çözer.
 *   **Kullanıcı Dostu Demo Simülatörü:** Freighter cüzdanı yüklü olmayan kullanıcılar için anında test imkanı sunan bir **Demo Simülatör Modu** entegre edilmiştir. Freighter cüzdanı algılandığında sistem otomatik olarak canlı Stellar Testnet moduna geçiş yapabilir.
 *   **Görsel Zaman Tüneli & Canlı Harita:** Kurye kargo durumunu güncelledikçe haritadaki araç simgesi hareket eder ve işlem zaman tüneline yansır.
+
+---
+
+## 📸 Ekran Görüntüleri (Screenshots)
+
+Uygulamanın uçtan uca çalışma akışını ve arayüz detaylarını gösteren ekran görüntüleri `./screenshots/` klasöründe yer almaktadır:
+
+1.  **Müşteri Sipariş Oluşturma (Buyer):** ![Müşteri Paneli](./screenshots/1_buyer_create.png) - Alıcının emanet ödemesini kilitlediği ve kargo siparişini başlattığı ekran.
+2.  **Kurye Atama ve Kabul (Courier):** ![Kurye Paneli](./screenshots/2_courier_assigned.png) - Siparişin kuryeye atandığı ve kurye panelinde göründüğü ekran.
+3.  **Transit Yolculuk ve Harita (Transit):** ![Kargo Yolculuğu](./screenshots/3_courier_transit.png) - Kuryenin durumu güncellediği ve harita üzerindeki kamyonun hareket ettiği an.
+4.  **Teslimat PIN/QR Doğrulama (QR Verification):** ![QR Doğrulama Modal](./screenshots/4_qr_modal.png) - Kurye teslimat adresine ulaştığında açılan doğrulama ekranı.
+5.  **Teslimat Tamamlandı (Delivery Finalized):** ![Teslimat Tamamlandı](./screenshots/5_delivery_finalized.png) - Şifre doğrulandıktan sonra escrow kilidinin çözüldüğünü gösteren ekran.
+6.  **Hakem ve Dağıtılan Fonlar (Escrow Released):** ![Escrow Durumu](./screenshots/6_arbitrator_released.png) - Fonların dağıtıldığını ve escrow durumunun `RELEASED` olduğunu gösteren ekran.
+
+### Diğer Ekran Görüntüleri ve Demo Videosu:
+*   🎥 **1-2 Dakikalık Demo Videosu:** [Google Drive veya YouTube Linkini Buraya Yapıştırın]
+*   ⚙️ **Çalışan CI/CD Hattı:** ![CI/CD Pipeline](./screenshots/cicd_pipeline.png) *(Projeyi GitHub'a yüklediğinizde Actions sekmesinden ekran görüntüsü alıp bu isimle `/screenshots` altına kaydedebilirsiniz)*
+*   🧪 **Başarılı Test Çıktısı (3+ Test):** ![Rust Tests](./screenshots/rust_tests.png) *(Terminalinizde `cargo test` çalıştırıp ekran görüntüsü alarak bu isimle kaydedebilirsiniz)*
+
