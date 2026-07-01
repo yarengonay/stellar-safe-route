@@ -1,0 +1,15 @@
+[package]
+name = "logistics_tracker"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = "22.0.0"
+hashbrown = { version = "=0.14.5", default-features = false }
+
+[dev-dependencies]
+soroban-sdk = { version = "22.0.0", features = ["testutils"] }
+courier_registry = { path = "../courier_registry" }
