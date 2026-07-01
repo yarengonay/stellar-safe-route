@@ -74,7 +74,7 @@ Uygulamanın uçtan uca çalışma akışını ve arayüz detaylarını göstere
 6.  **Hakem ve Dağıtılan Fonlar (Escrow Released):** ![Escrow Durumu](./screenshots/6_arbitrator_released.png) - Fonların dağıtıldığını ve escrow durumunun `RELEASED` olduğunu gösteren ekran.
 
 ### Diğer Ekran Görüntüleri ve Demo Videosu:
-*   🎥 **1-2 Dakikalık Demo Videosu:** [Google Drive veya YouTube Linkini Buraya Yapıştırın]
+*   🎥 **1-2 Dakikalık Demo Videosu:** [StellarSafeRoute Demo Videosu (Google Drive)](https://drive.google.com/file/d/1P0ghtiten5Qg3E8T4xhPSm_h0V5yyKA7/view?usp=sharing)
 *   ⚙️ **Çalışan CI/CD Hattı:** ![CI/CD Pipeline](./screenshots/cicd_pipeline.png) *(Projeyi GitHub'a yüklediğinizde Actions sekmesinden ekran görüntüsü alıp bu isimle `/screenshots` altına kaydedebilirsiniz)*
 *   🧪 **Başarılı Test Çıktısı (3+ Test):** ![Rust Tests](./screenshots/rust_tests.png) *(Terminalinizde `cargo test` çalıştırıp ekran görüntüsü alarak bu isimle kaydedebilirsiniz)*
 
