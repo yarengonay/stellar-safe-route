@@ -551,7 +551,9 @@ export default function App() {
                             <button
                               onClick={(e) => {
                                 e.stopPropagation();
-                                navigator.clipboard.writeText(o.verificationCode).catch(() => {});
+                                if (navigator.clipboard) {
+                                  navigator.clipboard.writeText(o.verificationCode).catch(() => {});
+                                }
                                 setQrCodeData(o.verificationCode);
                                 showToast('Pin code copied! Present this QR code to the courier.', 'info');
                               }}
